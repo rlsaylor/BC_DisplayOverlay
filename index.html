@@ -32,28 +32,5 @@
 <script src="//players.brightcove.net/5067014746001/default_default/index.min.js"></script>
   <script src="//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js"></script>
 
- <script id="pageScript" type="text/javascript">
-  var myPlayer = videojs("myPlayerID");
-  myPlayer.overlay({
-    content: '<strong>Default overlay content</strong>',
-    overlays: [{
-      align: "top",
-      content: 'This event-triggered overlay message appears when the video is playing',
-      start: 'play',
-      end: 'pause'
-    }, {
-      content: 'This timed overlay message appears between 5 and 10 seconds',
-      start: 5,
-      end: 10,
-      align: 'bottom-right'
-    }, {
-      start: 12,
-      end: 17,
-      align: 'bottom-left'
-    }]
-  });
-
-</script>
-
 </body>
 </html>
